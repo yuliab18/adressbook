@@ -1,0 +1,20 @@
+/* Стилізація кнопок */
+.button {
+    -fx-background-color: #ff69b4; /* Рожевий колір */
+    -fx-text-fill: white; /* Білий текст */
+    -fx-font-size: 12px; /* Розмір шрифта */
+    -fx-padding: 10px 10px; /* Відступи всередині кнопки */
+    -fx-border-radius: 1px; /* Заокруглення країв */
+    -fx-background-radius: 2px; /* Заокруглення фону */
+    -fx-effect: innershadow( gaussian , rgba(0,0,0,0.4) , 5, 0.0 , 2 , 2 ); /* Тінь */
+}
+
+/* При наведенні на кнопку */
+.button:hover {
+    -fx-background-color: #ff1493; /* Трохи темніший рожевий колір */
+}
+
+/* При натисканні на кнопку */
+.button:pressed {
+    -fx-background-color: #c71585; /* Ще темніший рожевий при натисканні */
+}
